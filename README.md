@@ -78,7 +78,7 @@ $ cd ..
 $ git clone https://github.com/unispeech/unimrcp.git
 $ cd unimrcp
 $ ./bootstrap
-$ ./configure
+$ ./configure --with-apr=/usr/loca/apr  --with-apr-util=/usr/loca/apr
 $ make
 $ sudo make install
 $ cd ..
